@@ -7,3 +7,4 @@ ts-node-dev
 client
 viteApp [https://vitejs.dev/]
 tailwindcss [https://tailwindcss.com/]
+phospor icons [https://phosphoricons.com/]
