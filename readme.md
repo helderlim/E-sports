@@ -3,6 +3,8 @@ em cada dependencia escreva uma introdução sobre seu funcionamento para futura
 server
 
 ts-node-dev
+banco sqlite
+prisma ORM
 
 client
 viteApp [https://vitejs.dev/]
