@@ -1,4 +1,5 @@
 import express from 'express'
+import cors from 'cors'
 import { PrismaClient } from '@prisma/client'
 import { convertHourStringToMinutes } from './utils/convert-hour-string-to-minutes'
 import { convertMinutesToHourString } from './utils/convert-minutes-to-hour-string'
@@ -6,6 +7,9 @@ import { convertMinutesToHourString } from './utils/convert-minutes-to-hour-stri
 const app = express()
 
 app.use(express.json())
+
+//em prod mudar o dominio -> origin: http...
+app.use(cors())
 
 const prisma = new PrismaClient()
 
